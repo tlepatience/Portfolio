@@ -273,3 +273,14 @@ body {
 .dark-mode{
 
 }
+.footer{
+
+  background-color: #000000;
+  color: white;
+  padding-top: 10px;
+  margin: 150px 0px 0px 0px;
+  position:relative;
+  height: 30px;
+
+
+}

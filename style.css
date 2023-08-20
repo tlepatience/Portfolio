@@ -213,34 +213,6 @@ body {
       body{
         background-color: azure;
       }
-      @media screen and (max-width: 768px) {
-        .portfolio{
-            width: 30%;
-        }
-        .intro img{
-          width: 50%;
-        }
-    }
-    @media screen and (max-width: 768px) {
-      /* ... Existing styles ... */
-      
-      .about-me img,
-      .intro img {
-        max-width: 100%;
-        margin: 0 auto;
-        
-      }
-    }
-    
-    @media screen and (max-width: 480px) {
-      /* ... Existing styles ... */
-      
-      .about-me img,
-      .intro img {
-        max-width: 80%;
-        margin: 20px auto;
-      }
-    }
     /* General styles */
 body {
   font-family: Arial, sans-serif;
@@ -273,14 +245,6 @@ header p {
 /* Other existing styles */
 
 /* Add responsive styles */
-@media screen and (max-width: 768px) {
-  header h1 {
-    font-size: 24px;
-  }
-
-  header p {
-    font-size: 14px;
-  }
 
   .about-me h2,
   .portfolio h2,

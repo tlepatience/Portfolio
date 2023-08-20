@@ -281,17 +281,24 @@ header p {
     margin: 10px 0;
   }
 
-  .contact form {
-    grid-template-columns: 1fr;
+  #contact-form {
+    /* grid-template-columns: 1fr; */
     max-width: 100%;
-    margin: 0 auto;
-  }
-}
+    margin: 0 30px;
+    display:inline-block;
+   
 
-@media screen and (max-width: 480px) {
+  }
+  #contact-form input, textarea{
+    margin: 8px 0;
+    border-radius: 6px;
+  }
+
+
+/* @media screen and (max-width: 480px) {
   .portfolio .project h3 {
     font-size: 18px;
-  }
+  } */
 
   .project-box {
     justify-content: center;

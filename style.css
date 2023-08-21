@@ -1,9 +1,9 @@
 /* General styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #492a5e;
+    background-color: aliceblue;
   }
   
   .container {
